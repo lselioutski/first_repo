@@ -8,17 +8,10 @@ print(area)                   # area doesn't change, assigned value still from b
 area = pi*(radius**2)         # area changes because the radius is assigned a different value 
 print(area)                   # output of area is now a different value 
 
-#area = pi*(radius**2)
-#print(area)
-#radius = radius + 1
-#area = pi*(radius**2)
-#print(area)
+if area>10:
+  print("yipee!")             # if the outputed area is greater than 10, there will also be an output of "yipee!"
+if area <10:
+  print ("fine")              # if the outputed area is less than 10, there will be an additional output of "fine"
+if area==10:
+  print("WOW!")               # if the outputed area if exactly equal to 10, there will be an additional output of "WOW!"
 
-# define a variable
-a_very_long_variable_name_dont_name_them_this_long_pls = 0
-
-# below, start typing a_ve then hit tab... cool, right!
-# use autocomplete to change the value of that variable to 1
-
-# use autocomplete to write a line that prints the value of that long variable
-# notice that Spyder also automatically adds the closed parentheses for you!
