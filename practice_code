@@ -1,0 +1,30 @@
+pi = 3.14159
+radius = 2.2
+area = pi*(radius**2)         # area of circle equation, assigning the value of this equation to the area
+print(area)                   # this will output the assigned value for the area 
+
+radius = radius + 1           # change values of radius, value of radius increases by a value of one 
+print(area)                   # area doesn't change, assigned value still from before 
+area = pi*(radius**2)         # area changes because the radius is assigned a different value 
+print(area)                   # output of area is now a different value 
+
+#############################
+#### COMMENTING LINES #######
+#############################
+# to comment MANY lines at a time, highlight all of them then press CTRL+1
+# do CTRL+1 again to uncomment them
+
+#############################
+#### AUTOCOMPLETE #######
+#############################
+# Spyder can autocomplete names for you
+# start typing a variable name defined in your program and hit tab 
+# notice that Spyder also automatically adds the closed parentheses for you!
+
+# this is just extra, for fun
+if area>10:
+  print("yipee!")             # if the outputed area is greater than 10, there will also be an output of "yipee!"
+if area <10:
+  print ("fine")              # if the outputed area is less than 10, there will be an additional output of "fine"
+if area==10:
+  print("WOW!")               # if the outputed area if exactly equal to 10, there will be an additional output of "WOW!"
